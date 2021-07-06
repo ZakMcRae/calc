@@ -1,14 +1,51 @@
+.bg {
+  background-image: repeating-linear-gradient(
+      112.5deg,
+      hsla(241, 0%, 57%, 0.2) 0px,
+      hsla(241, 0%, 57%, 0.2) 0px,
+      transparent 0px,
+      transparent 1px,
+      hsla(241, 0%, 57%, 0.2) 1px,
+      hsla(241, 0%, 57%, 0.2) 4px,
+      transparent 4px,
+      transparent 5px,
+      hsla(241, 0%, 57%, 0.2) 5px,
+      hsla(241, 0%, 57%, 0.2) 8px
+    ),
+    repeating-linear-gradient(
+      22.5deg,
+      hsla(241, 0%, 57%, 0.2) 0px,
+      hsla(241, 0%, 57%, 0.2) 0px,
+      transparent 0px,
+      transparent 1px,
+      hsla(241, 0%, 57%, 0.2) 1px,
+      hsla(241, 0%, 57%, 0.2) 4px,
+      transparent 4px,
+      transparent 5px,
+      hsla(241, 0%, 57%, 0.2) 5px,
+      hsla(241, 0%, 57%, 0.2) 8px
+    ),
+    linear-gradient(90deg, rgb(47, 47, 47), rgb(184, 184, 184));
+}
+
+html,
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 #calc-body {
   background-color: black;
   width: 300px;
   height: 450px;
   padding: 5px;
   margin: auto;
+  margin-top: 100px;
 }
 
 #display {
   display: flex;
-  background-color: grey;
+  background-color: rgb(220, 220, 220);
   height: 70px;
   margin-bottom: 5px;
   border-radius: 5px;
@@ -25,14 +62,23 @@
 }
 
 button {
-  background-color: rgba(255, 255, 255, 0.877);
+  background-color: rgb(220, 220, 220);
   width: 75px;
   height: 75px;
   border-radius: 5px;
 }
 
-#C {
+button:hover {
+  transform: scale(1.03);
+}
+
+.opsButton {
+  background-color: rgb(150, 220, 150);
+}
+
+#clearButton {
   width: 225px;
+  background-color: rgb(220, 150, 150);
 }
 
 #zero {
