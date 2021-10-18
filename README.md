@@ -8,7 +8,7 @@ This is a simple calculator app.
 Users can do basic operations like add, subtract, multiply and divide. Allows use of decimals and a button to clear current values.
 I deployed this app on GitHub pages.
 
-![](https://i.imgur.com/PYU6wCu.png)
+[![](https://i.imgur.com/PYU6wCu.png)](https://zakmcrae.github.io/calc/)
 
 ## Learned on project
 - good practice for learing Javascript fundamentals
